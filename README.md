@@ -4,7 +4,11 @@
 
 V3.0
 
-只支持jdk8
+支持jdk8直接运行
+jdk11因为没有javafx这个依赖需要自己再加上参数 
+```
+java -Dfile.encoding="UTF-8" --module-path "C:\Program Files\Java\javafx-sdk-11.0.2\lib" --add-modules "javafx.controls,javafx.fxml,javafx.web" -jar "xxx.jar"
+```
 
 因为接口问题，删除ip查询功能
 
