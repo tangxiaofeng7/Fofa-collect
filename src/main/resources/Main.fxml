@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="799.0" prefWidth="952.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.suyu.controller.MainController">
+    <top>
+        <MenuBar BorderPane.alignment="CENTER">
+            <menus>
+                <Menu mnemonicParsing="false" text="设 置">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#fofa_pwd" text="fofa账号配置" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="关 于">
+                    <items>
+                        <MenuItem fx:id="about" mnemonicParsing="false" onAction="#about" text="About" />
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+    </top>
+    <center>
+        <TabPane fx:id="mainTabPane" prefHeight="751.0" prefWidth="915.0" tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER">
+            <tabs>
+                <Tab text="功 能 列 表">
+                    <content>
+                        <BorderPane prefHeight="718.0" prefWidth="832.0">
+                     <top>
+                        <ToolBar prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                          <items>
+                            <Button onMouseClicked="#openFofacollect" text="Fofa采集" />
+                          </items>
+                        </ToolBar>
+                     </top>
+                     <center>
+                        <TextArea prefHeight="200.0" prefWidth="200.0" promptText="第一次使用Fofa采集，请先配置您的邮箱和KEY" BorderPane.alignment="CENTER">
+                           <font>
+                              <Font size="41.0" />
+                           </font>
+                        </TextArea>
+                     </center>
+                        </BorderPane>
+                    </content>
+                </Tab>
+            </tabs>
+        </TabPane>
+    </center>
+</BorderPane>

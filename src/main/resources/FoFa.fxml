@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="746.0" prefWidth="940.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.suyu.controller.FofaController">
+    <bottom>
+        <AnchorPane prefHeight="641.0" prefWidth="795.0" BorderPane.alignment="CENTER">
+            <children>
+                <TextArea fx:id="result_text" layoutX="11.0" layoutY="-8.0" prefHeight="629.0" prefWidth="918.0" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="11.0" AnchorPane.rightAnchor="11.0" AnchorPane.topAnchor="-8.0" />
+            </children>
+        </AnchorPane>
+    </bottom>
+    <center>
+        <AnchorPane prefHeight="74.0" prefWidth="940.0" BorderPane.alignment="CENTER">
+            <children>
+                <Label layoutX="14.0" layoutY="14.0" prefHeight="38.0" prefWidth="79.0" text="查询条件 :" />
+                <TextField fx:id="fofa_q" layoutX="115.0" layoutY="20.0" prefHeight="27.0" prefWidth="398.0" promptText="app=&quot;Solr&quot;" />
+                <Label layoutX="542.0" layoutY="14.0" prefHeight="38.0" prefWidth="79.0" text="页 数 ：" />
+                <ComboBox fx:id="page_cbx" layoutX="602.0" layoutY="20.0" prefHeight="27.0" prefWidth="90.0" />
+                <Button fx:id="search_btn" layoutX="730.0" layoutY="21.0" mnemonicParsing="false" onAction="#fofa_search" text="search" />
+                <Button fx:id="clear_btn" layoutX="866.0" layoutY="20.0" mnemonicParsing="false" onAction="#fofa_clear" text=" claer" />
+                <Button fx:id="stop_btn" layoutX="799.0" layoutY="21.0" mnemonicParsing="false" onAction="#fofa_search_stop" text="  stop  " />
+            <ProgressBar fx:id="processbar" layoutX="115.0" layoutY="65.0" prefHeight="20.0" prefWidth="811.0" progress="0.0" />
+            <Label layoutX="14.0" layoutY="56.0" prefHeight="38.0" prefWidth="79.0" text="进度条：" />
+            </children>
+        </AnchorPane>
+    </center>
+</BorderPane>

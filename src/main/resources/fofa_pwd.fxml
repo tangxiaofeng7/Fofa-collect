@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane prefHeight="100.0" prefWidth="755.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.suyu.controller.FofaPwdController">
+    <top>
+        <Pane prefHeight="46.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+            <children>
+                <Button fx:id="fofa_save" layoutX="680.0" layoutY="10.0" mnemonicParsing="false" onAction="#savefofa" prefHeight="23.0" prefWidth="61.0" text="保 存" />
+                <TextField fx:id="mail_account" layoutX="73.0" layoutY="12.0" prefHeight="23.0" prefWidth="224.0" />
+                <TextField fx:id="key_id" layoutX="339.0" layoutY="11.0" prefHeight="27.0" prefWidth="327.0" />
+                <Label layoutX="21.0" layoutY="16.0" text="mail：" />
+                <Label layoutX="297.0" layoutY="16.0" text=" key：" />
+            </children>
+        </Pane>
+    </top>
+    <center>
+        <TextArea fx:id="fofa_acc_text" prefHeight="352.0" prefWidth="755.0" />
+    </center>
+</BorderPane>
