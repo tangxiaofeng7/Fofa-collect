@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Maven: com.fasterxml.jackson.core:jackson-core:2.9.9">
     <CLASSES>
-      <root url="jar:///usr/local/apache-maven-3.6.3/repository/com/fasterxml/jackson/core/jackson-core/2.9.9/jackson-core-2.9.9.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.9.9/jackson-core-2.9.9.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar:///usr/local/apache-maven-3.6.3/repository/com/fasterxml/jackson/core/jackson-core/2.9.9/jackson-core-2.9.9-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.9.9/jackson-core-2.9.9-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar:///usr/local/apache-maven-3.6.3/repository/com/fasterxml/jackson/core/jackson-core/2.9.9/jackson-core-2.9.9-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.9.9/jackson-core-2.9.9-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

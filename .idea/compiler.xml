@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="FofaCollect" target="8" />
+      <module name="FofaCollect" target="6" />
     </bytecodeTargetLevel>
   </component>
 </project>

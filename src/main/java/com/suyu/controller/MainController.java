@@ -54,7 +54,7 @@ public class MainController implements Initializable {
     public void openFofacollect(final Event e) {
         try {
             final FXMLLoader fxmlLoader = new FXMLLoader();
-            fxmlLoader.setLocation(getClass().getClassLoader().getResource("FoFa.fxml"));
+            fxmlLoader.setLocation(getClass().getClassLoader().getResource("com/suyu/views/FoFa.fxml"));
             final Parent root = (Parent)fxmlLoader.load();
             final FofaController fo = (FofaController)fxmlLoader.getController();
             fo.setMain(this);
@@ -73,7 +73,7 @@ public class MainController implements Initializable {
     private void fofa_pwd(final Event event) {
         try {
             final FXMLLoader fxmlLoader = new FXMLLoader();
-            fxmlLoader.setLocation(getClass().getClassLoader().getResource("fofa_pwd.fxml"));
+            fxmlLoader.setLocation(getClass().getClassLoader().getResource("com/suyu/views/fofa_pwd.fxml"));
             final Parent root = (Parent)fxmlLoader.load();
             final Stage stage = new Stage();
             final Scene sc = new Scene(root);

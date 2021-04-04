@@ -3,14 +3,13 @@
     <output-path>$PROJECT_DIR$/out/artifacts/FofaCollect_jar</output-path>
     <root id="archive" name="FofaCollect.jar">
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
       </element>
       <element id="module-output" name="FofaCollect" />
-      <element id="extracted-dir" path="/usr/local/apache-maven-3.6.3/repository/com/r4v3zn/fofa/fofa-core/1.0.2.RELEASE/fofa-core-1.0.2.RELEASE.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/src/main/java/com/suyu/lib/fofa-core-1.0.2.RELEASE.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="/usr/local/apache-maven-3.6.3/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.10/jackson-annotations-2.9.10.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="/usr/local/apache-maven-3.6.3/repository/com/fasterxml/jackson/core/jackson-core/2.9.9/jackson-core-2.9.9.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="/usr/local/apache-maven-3.6.3/repository/com/fasterxml/jackson/core/jackson-databind/2.9.10.4/jackson-databind-2.9.10.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.9.9/jackson-core-2.9.9.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.9.10.4/jackson-databind-2.9.10.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/r4v3zn/fofa/fofa-core/1.0.2.RELEASE/fofa-core-1.0.2.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.9.10/jackson-annotations-2.9.10.jar" path-in-jar="/" />
     </root>
   </artifact>
 </component>
