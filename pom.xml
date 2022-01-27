@@ -52,10 +52,21 @@
 
 
     <dependencies>
+        <!-- jackson -->
         <dependency>
-            <groupId>com.r4v3zn.fofa</groupId>
-            <artifactId>fofa-core</artifactId>
-            <version>1.0.4.RELEASE</version>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-core</artifactId>
+            <version>2.12.4</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.12.4</version>
+        </dependency>
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-core</artifactId>
+            <version>5.7.3</version>
         </dependency>
     </dependencies>
 

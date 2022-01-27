@@ -1,9 +1,11 @@
 package com.suyu.controller;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
-import com.r4v3zn.fofa.core.DO.FofaData;
-import com.r4v3zn.fofa.core.client.FofaClient;
+
+
 import com.suyu.Main;
+import com.suyu.core.DO.FofaData;
+import com.suyu.core.client.FofaClient;
 import com.suyu.utils.FileTools;
 import com.suyu.utils.Path;
 import javafx.collections.FXCollections;

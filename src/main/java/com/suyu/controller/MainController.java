@@ -36,7 +36,7 @@ public class MainController implements Initializable {
     public void about(final Event e) {
         try {
             final DialogPane da = new DialogPane();
-            da.setHeaderText("苏宇@涂鸦");
+            da.setHeaderText("唐小风 \n Wechat: suyu401");
             final Stage stage = new Stage();
             final Scene sc = new Scene((Parent)da);
             stage.setScene(sc);
